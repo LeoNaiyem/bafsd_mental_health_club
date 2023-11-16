@@ -83,7 +83,7 @@
         paginationSpeed: 4000,
         autoplay: true,
         autoplayTimeout: 4000,
-        dots: false,
+        dots: true,
         autoplayHoverPause: true,
         loop: true,
         margin: 15,
