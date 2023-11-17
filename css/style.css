@@ -104,28 +104,28 @@ header::before {
   object-fit: cover;
 }
 .quotes-card-name {
-  margin-left: -30px;
-  width: 25%;
+  margin-left: -35px;
+  width: 30%;
   margin-right: 10px;
 }
 .quotes-card-name h6 {
   font-family: styledFont, sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 10px;
   margin-bottom: 0px;
   line-height: 12px;
 }
 .quotes-card-name span {
   font-size: 12px;
-  font-weight: 700;
-  margin-left: 15px;
-  color: #0ccb8c;
+  margin-left: -5px;
+  color: #caff00;
   text-transform: uppercase;
 }
 .quotes-card-text {
   text-align: justify;
   position: relative;
-  width: 50%;
+  width: 60%;
+  padding-left: 10px;
 }
 .quotes-card-text::after {
   font-family: "Font Awesome 5 Free";
@@ -133,7 +133,7 @@ header::before {
   content: "\f10d";
   position: absolute;
   top: -5px;
-  left: -20px;
+  left: -10px;
 }
 .quotes-card-text::before {
   content: "\f10e";

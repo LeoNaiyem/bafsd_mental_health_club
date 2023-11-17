@@ -105,7 +105,7 @@
         paginationSpeed: 4000,
         autoplay: true,
         autoplayTimeout: 4000,
-        dots: false,
+        dots: true,
         autoplayHoverPause: true,
         loop: true,
         margin: 15,
@@ -128,3 +128,127 @@
         navBarTag.classList.toggle("fixed", window.scrollY > 0);
 
       })
+
+      //js code for load quotes dynamically
+// const quotesArray = [
+//   {
+//     avatarSrc: "../images/quotes/Steve-Jobs.jpg",
+//     name: "Steve Jobs",
+//     role: "CEO OF APPLE",
+//     quoteText:
+//       "Your present circumstances don’t determine where you go; they merely determine where you start.",
+//   },
+//   {
+//     avatarSrc: "../images/quotes/AdamAnt.jpg",
+//     name: "Adam Ant",
+//     role: "Musician",
+//     quoteText:
+//       "Mental health needs a great deal of attention. It's the final taboo and it needs to be faced and dealt with.",
+//   },
+//   {
+//     avatarSrc: "../images/quotes/Steve-Jobs.jpg",
+//     name: "Adam Ant",
+//     role: "Musician",
+//     quoteText:
+//       "Mental health needs a great deal of attention. It's the final taboo and it needs to be faced and dealt with.",
+//   },
+//   {
+//     avatarSrc: "../images/quotes/Steve-Jobs.jpg",
+//     name: "Adam Ant",
+//     role: "Musician",
+//     quoteText:
+//       "Mental health needs a great deal of attention. It's the final taboo and it needs to be faced and dealt with.",
+//   },
+//   {
+//     avatarSrc: "../images/quotes/Steve-Jobs.jpg",
+//     name: "Adam Ant",
+//     role: "Musician",
+//     quoteText:
+//       "Mental health needs a great deal of attention. It's the final taboo and it needs to be faced and dealt with.",
+//   },
+//   {
+//     avatarSrc: "../images/quotes/Steve-Jobs.jpg",
+//     name: "Adam Ant",
+//     role: "Musician",
+//     quoteText:
+//       "Mental health needs a great deal of attention. It's the final taboo and it needs to be faced and dealt with.",
+//   },
+//   {
+//     avatarSrc: "../images/quotes/Steve-Jobs.jpg",
+//     name: "Adam Ant",
+//     role: "Musician",
+//     quoteText:
+//       "Mental health needs a great deal of attention. It's the final taboo and it needs to be faced and dealt with.",
+//   },
+//   {
+//     avatarSrc: "../images/quotes/Steve-Jobs.jpg",
+//     name: "Adam Ant",
+//     role: "Musician",
+//     quoteText:
+//       "Mental health needs a great deal of attention. It's the final taboo and it needs to be faced and dealt with.",
+//   },
+//   {
+//     avatarSrc: "../images/quotes/Steve-Jobs.jpg",
+//     name: "Adam Ant",
+//     role: "Musician",
+//     quoteText:
+//       "Mental health needs a great deal of attention. It's the final taboo and it needs to be faced and dealt with.",
+//   },
+//   {
+//     avatarSrc: "../images/quotes/Steve-Jobs.jpg",
+//     name: "Adam Ant",
+//     role: "Musician",
+//     quoteText:
+//       "Mental health needs a great deal of attention. It's the final taboo and it needs to be faced and dealt with.",
+//   },
+//   {
+//     avatarSrc: "../images/quotes/Steve-Jobs.jpg",
+//     name: "Adam Ant",
+//     role: "Musician",
+//     quoteText:
+//       "Mental health needs a great deal of attention. It's the final taboo and it needs to be faced and dealt with.",
+//   },
+// ];
+
+// // Function to create a quotes card dynamically
+// function createQuotesCard(quote) {
+//   const quotesCard = document.createElement("div");
+//   quotesCard.classList.add("item");
+
+//   quotesCard.innerHTML = `
+
+//     <div class="quotes-card d-flex">
+//                 <div class="quotes-card-avatar">
+//                   <img
+//                     src="${quote.avatarSrc}"
+//                     class="rounded-circle shadow-4"
+//                     alt="Avatar"
+//                   />
+//                 </div>
+//                 <div
+//                   class="quotes-card-name d-flex align-items-center flex-column justify-content-center"
+//                 >
+//                   <h6>${quote.name}</h6>
+//                   <span>${quote.role}</span>
+//                 </div>
+//                 <div class="quotes-card-text">
+//                   ${quote.quoteText}
+//                 </div>
+//               </div>
+//   `;
+
+//   return quotesCard;
+// }
+
+// // Function to append quotes cards to a container
+// function appendQuotesCards(quotesArray) {
+//   const container = document.getElementById("quotes-container"); // replace "quotes-container" with your actual container ID
+
+//   quotesArray.forEach((quote) => {
+//     const quotesCard = createQuotesCard(quote);
+//     container.appendChild(quotesCard);
+//   });
+// }
+
+// // Call the function to generate and append quotes cards
+// appendQuotesCards(quotesArray);
