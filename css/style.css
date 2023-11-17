@@ -314,8 +314,8 @@ header::before {
 .main-content p {
   color: #fff;
   font-size: 25px;
-  font-weight: 700;
-  letter-spacing: -1.5px;
+  font-weight: 600;
+  letter-spacing: -1px;
   line-height: 40px;
   padding-bottom: 40px;
 }
@@ -345,7 +345,7 @@ header::before {
   position: absolute;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  font-size: 14px;
+  font-size: 16px;
   color: #02863a;
   top: 16px;
   left: 30px;
@@ -357,7 +357,7 @@ header::before {
   margin-right: 2rem;
 }
 .second-btn:before {
-  content: "\f5d2";
+  content: "\f358";
 }
 .about-us {
   padding: 80px 15px 50px;
